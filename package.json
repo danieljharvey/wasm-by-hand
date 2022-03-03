@@ -1,0 +1,13 @@
+{
+  "name": "wasm-by-hand",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^27.5.1",
+    "wabt": "^1.0.27"
+  },
+  "scripts": {
+   "test": "jest *.wat *.js --watchAll"
+  }
+}
